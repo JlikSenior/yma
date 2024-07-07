@@ -1,0 +1,17 @@
+{
+  "name": "yma",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "serve": "vite serve",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "vue": "^3.4.29"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.5",
+    "vite": "^5.3.1"
+  }
+}
