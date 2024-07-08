@@ -16,8 +16,8 @@
             </ul>
         </div>
         <nav class="menu">
-            <button type="button" class="menu-button">客服管理</button>
-            <button type="button" class="menu-button">技术管理</button>
+            <button @click="goToCustomerManagement" type="button" class="menu-button">客服管理</button>
+            <button @click="goToTechManagement" type="button" class="menu-button">技术管理</button>
         </nav>
     </main>
     <footer ref="footer">

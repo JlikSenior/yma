@@ -1,11 +1,11 @@
-<script setup>
-import HomePage from './Home/HomePage.vue'
-</script>
-
 <template>
-  <header>
-    <div>
-      <HomePage/>
-    </div>
-  </header>
+  <div id="app">
+    <router-view></router-view>
+  </div>
 </template>
+
+<script>
+export default {
+  name: 'App'
+};
+</script>
